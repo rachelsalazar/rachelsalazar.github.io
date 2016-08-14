@@ -1,0 +1,64 @@
+
+.main_section {
+  position: absolute;
+  left: 0;
+  top: 120px;
+}
+
+.login {
+  display: inline-block;
+}
+
+
+.login a:hover span {
+  display:inline-block;
+}
+h1 {
+  text-align: center;
+  font-family: Arial;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+nav {
+  height: 80px;
+}
+nav h2 {
+  display: inline-block;
+  font-family: Arial;
+}
+body {
+  text-align: center;
+}
+.resize {
+  height: 80%;
+  margin-left: 120px;
+}
+.surfballard {
+  height: 40px;
+  margin-left: 1px;
+}
+.hsurfballard {
+  display: none;
+  float: right;
+  font-family: Cursive;
+  color: #000000
+}
+.home {
+  color: #00cccc;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border: 3px solid #00cccc;
+  padding: 5px;
+  border-radius: 10px;
+}
+.kayaking {
+  color: #00cccc;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border: 3px solid #00cccc;
+  padding: 5px;
+  border: 3px solid #00cccc;
+  border-radius: 10px;
+}
