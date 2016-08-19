@@ -1,17 +1,17 @@
 
 .main_section {
-  position: absolute;
   left: 0;
   top: 120px;
 }
 
 .login {
-  display: inline-block;
+position: absolute;
 }
 
 
 .login a:hover span {
   display:inline-block;
+  position: absolute;
 }
 h1 {
   text-align: center;
@@ -30,18 +30,28 @@ body {
   text-align: center;
 }
 .resize {
-  height: 80%;
-  margin-left: 120px;
+  height: 75%;
+  z-index: 3;
+
 }
 .surfballard {
-  height: 40px;
-  margin-left: 1px;
+  height: 30px;
+  position: relative;
+  z-index: 1;
+  margin-top: -400px;
+  margin-left: 500px;
 }
 .hsurfballard {
   display: none;
-  float: right;
-  font-family: Cursive;
-  color: #000000
+  border: 1px solid #ffffff;
+  width: 200px;
+  height: 230px;
+  color: #000000;
+  margin-left: 550px;
+  margin-top: -400px;
+  z-index: 1;
+  position: relative;
+  font-family: Arial;
 }
 .home {
   color: #00cccc;
